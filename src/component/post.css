@@ -1,0 +1,40 @@
+
+.post {
+    background-color: white;
+    max-width: 380px;
+    border: 1px solid lightgray;
+    margin-bottom: 20px;
+
+}
+.post_header {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+.MuiAvatar-root {
+    width: 30px !important;
+    height: 30px !important;
+}
+.post_header_username {
+    margin-left: 10px;
+}
+.post_img img{
+    width: 100%;
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+}
+.post_content {
+    padding: 8px;
+    margin-bottom: 25px;
+}
+.post_comments {
+    padding-left: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    word-break: break-all;
+}
+
+.post_comments_delete {
+    cursor: pointer;
+}
